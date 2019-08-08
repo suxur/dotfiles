@@ -93,15 +93,24 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 alias vtop="vtop --theme wizard"
 
+# Web Server
+alias hosts="sudo vim /etc/hosts"
+
 alias jsonfix="pbpaste | jq . | pbcopy"
 
 alias lookbusy="cat /dev/urandom | hexdump -C | grep \"34 32\""
-alias td="todo.sh"
-alias tda="todo.sh add"
-alias tdl="todo.sh list"
-alias tdd="todo.sh do"
+# alias td="todo.sh"
+# alias tda="todo.sh add"
+# alias tdl="todo.sh list"
+# alias tdd="todo.sh do"
 
-alias k='kubectl'
-alias kp='kubectl get pods -o wide'
-alias kdp='kubectl describe pod'
-alias kdn='kubectl describe node'
+# alias k='kubectl'
+# alias kp='kubectl get pods -o wide'
+# alias kdp='kubectl describe pod'
+# alias kdn='kubectl describe node'
+
+# Program Shortcus
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+
+# Files
+alias compress="tar -cvzf "
